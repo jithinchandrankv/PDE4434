@@ -13,7 +13,11 @@ To develop a program that can identify cards from the UNO game. Program should b
 ## Steps
 
 Navigate the folder where python file located
+
+
 ![command prompt 1](https://user-images.githubusercontent.com/117764288/235130156-9b672e73-0365-4e75-be58-77a66a2822cc.JPG)
+
+
 
 Type "Python "file name.py" and press enter.
 
