@@ -26,10 +26,30 @@ Type "Python "file name.py" and press enter.
 
 Program will run and live video open for 10 seconds, place the card infront of the camera.
 
+
+Live camera captured the image and saved in to located folder
+
+
+![test](https://user-images.githubusercontent.com/117764288/235215245-78f5ca78-7aa7-4a94-8d97-aebbcf398392.jpeg)
+
+
+Cropped image and saved into folder called "images" .
+
+
+![Test1](https://user-images.githubusercontent.com/117764288/235215313-d664306d-d76c-4013-8322-ccee69e6c8d4.jpeg)
+
+
+
+
 It will process and display  color and number/type in window "Result"
 
+
   
+![output](https://user-images.githubusercontent.com/117764288/235216180-86088767-79e6-4d18-a4b6-c4e3731c9393.JPG)
     
+    
+    
+
 ## Working
 
 
