@@ -188,6 +188,8 @@ Following reference help me for this course work.
 https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_contours/py_contour_features/py_contour_features.html<br>
 https://docs.opencv.org/master/d4/d73/tutorial_py_contours_begin.html<br>
 https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_contours/py_contours_hierarchy/py_contours_hierarchy.html
+https://en.wikipedia.org/wiki/HSL_and_HSV
+
 
 
 
