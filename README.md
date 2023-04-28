@@ -115,15 +115,21 @@ In this project using simple cnn model having sequence of layers that will proce
 
 
 
-
-
-  
   
 
+![Capturedd](https://user-images.githubusercontent.com/117764288/235227239-a071efab-e568-4800-96ef-79ca0e1e7337.JPG)
 
 
 
 
+
+
+
+
+During testing on a dataset, the model achieved an accuracy of 99.12% with a loss of 0.0233.
+
+
+![image](https://user-images.githubusercontent.com/117764288/235227759-97305af0-9861-4d43-bc46-1eb42a21e7ef.png)
 
 
 
