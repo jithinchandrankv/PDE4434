@@ -46,38 +46,8 @@ It will process and display  color and number/type in window "Result"
 
   
 ![output](https://user-images.githubusercontent.com/117764288/235216180-86088767-79e6-4d18-a4b6-c4e3731c9393.JPG)
-    
-    
-    
-
-## Working
 
 
-- Import required libraries.
-- Use the camera to show live video for ten seconds.
-- Capture an image after ten seconds and save it as a JPEG file.
-- Load the saved image and resize it.
-- Process the image to extract the contour of a UNO card by converting it to gray scale, smoothing it, thresholding it, and applying edge detection.
-- Find the contours in the image.
-- Select the contour with the maximum area, draw a bounding rectangle around it, and crop the UNO card from the original image using the bounding rectangle. 
-- Save the cropped UNO card image.
-- Load a pre-trained CNN model from a file.
-- Set the directory where cropped UNO card image are located.
-- Loop through each image in the directory, load, resize, and display it in a new window.
-- Convert the image to a numpy array and expand dimensions.
-- Use the pre-trained model to predict the type of UNO card in the image.
-- Display the predicted card color and number/type in window.
-
-
-
-
-
-## Analysis
-
-
-
-  
-  
 
 ## Dependencies
  #To load a trained model
@@ -113,12 +83,45 @@ import numpy as np
  
 ```bash  
 import cv2  
-```
+```   
+    
+    
+
+## Working
+
+
+- Import required libraries.
+- Use the camera to show live video for ten seconds.
+- Capture an image after ten seconds and save it as a JPEG file.
+- Load the saved image and resize it.
+- Process the image to extract the contour of a UNO card by converting it to gray scale, smoothing it, thresholding it, and applying edge detection.
+- Find the contours in the image.
+- Select the contour with the maximum area, draw a bounding rectangle around it, and crop the UNO card from the original image using the bounding rectangle. 
+- Save the cropped UNO card image.
+- Load a pre-trained CNN model from a file.
+- Set the directory where cropped UNO card image are located.
+- Loop through each image in the directory, load, resize, and display it in a new window.
+- Convert the image to a numpy array and expand dimensions.
+- Use the pre-trained model to predict the type of UNO card in the image.
+- Display the predicted card color and number/type in window.
+
+
+
+
+
+## Analysis
 
 
 
   
-## Simulation
+  
+
+
+
+
+
+
+
 
 
 
@@ -140,41 +143,16 @@ Datasample include,example 4 colors have number 1, so we created the cropped dat
 ![data sample](https://user-images.githubusercontent.com/117764288/235218374-16d7d0fd-3c00-4e40-892e-bb1899700976.JPG)
 
 
-## Constraints
+## Condition
+
+- Images are captured under daylight and room light conditions ,still possibility to give the wrong output, for better result , do the trials in room lighting with black background.
 
 
 ## Future improvement
 
+1.Train the model with large dataset having different condition images to train model get better result.
 
-## Demonstration Link 
-
-Video 1: https://www.youtube.com/watch?v=3lpa2Ujsyjs
-
-Video 2 :https://www.youtube.com/watch?v=0wO6pnyh2es
-
-
-
-
-
-
-
-
-
-
-
-
-## Reference
-
-Following reference help me for this course work.
-
-
-
-
-
-
-
-
-
+2.identify the card detection automatically using computer vision methods.
 
 
 
@@ -187,4 +165,30 @@ Following reference help me for this course work.
 
 
 ## Conclusion
+
+
+
+
+
+
+## Demonstration Link 
+
+
+Video 1: https://www.youtube.com/watch?v=3lpa2Ujsyjs
+
+Video 2 :https://www.youtube.com/watch?v=0wO6pnyh2es
+
+
+
+
+## Reference
+
+Following reference help me for this course work.
+
+https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_contours/py_contour_features/py_contour_features.html<br>
+https://docs.opencv.org/master/d4/d73/tutorial_py_contours_begin.html<br>
+https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_contours/py_contours_hierarchy/py_contours_hierarchy.html
+
+
+
 
