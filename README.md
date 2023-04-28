@@ -12,7 +12,7 @@ To develop a program that can identify cards from the UNO game. Program should b
 
 ## Steps
 
-Created a folder called "PDE4434",saved main python program(uno.py),Folder Test (dataset), Trained Model(Number detector.h5),CNN Program (CNN MODEL).
+Created a folder called "PDE4434",saved main python program(uno.py),Folder Test (dataset), Trained Model(Number detector.h5),CNN Program (CNN MODEL) and folders "images" "image" for save the captured and cropped images.
 
 
 
