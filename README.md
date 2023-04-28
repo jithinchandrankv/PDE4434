@@ -12,13 +12,17 @@ To develop a program that can identify cards from the UNO game. Program should b
 
 ## Steps
 
-
+Navigate the folder where python file located
 ![command prompt 1](https://user-images.githubusercontent.com/117764288/235130156-9b672e73-0365-4e75-be58-77a66a2822cc.JPG)
 
-
+Type "Python "file name.py" and press enter.
 
 
 ![command prompt 2](https://user-images.githubusercontent.com/117764288/235139091-1ebce26c-1d38-43fe-894c-97ee0e1bd421.JPG)
+
+Program will run and live video open for 10 seconds, place the card infront of the camera.
+
+It will process and display  color and number/type in window "Result"
 
   
     
@@ -38,7 +42,7 @@ To develop a program that can identify cards from the UNO game. Program should b
 - Loop through each image in the directory, load, resize, and display it in a new window.
 - Convert the image to a numpy array and expand dimensions.
 - Use the pre-trained model to predict the type of UNO card in the image.
-- Display the predicted card color and number/type.
+- Display the predicted card color and number/type in window.
 
 
 
