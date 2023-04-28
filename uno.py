@@ -108,7 +108,7 @@ if max_contour is not None:
 
 
 # Load pre-trained CNN model from file
-model = load_model("uno number1-cnn.h5")
+model = load_model("Number detector.h5")
 
 # Set directory where UNO card images are located
 path = "images"
