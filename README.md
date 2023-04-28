@@ -109,7 +109,21 @@ import cv2
 
 
 
-## Analysis
+##  Computer Vision and Machine Model Analysis
+
+#  Computer Vision 
+
+
+In this project , to identify UNO cards ,first captures a photo using a connected camera and applies various image processing techniques to it to detect contours, identify the maximum area contour, identifies the contour with the maximum area and draws a bounding rectangle around it if it has only four vertices. It also labels each contour with its index number.and crop it from the original image.
+
+For card color detection  converts it into the HSV color space. It then defines color ranges for each of the cards, and iterates through each range to identify the pixels within that range. A binary mask is created for the identified pixels, and the number of non-zero pixels in the mask is counted. If the count is above a specified threshold of 100.
+
+
+
+
+
+# Machine learning Model
+
 
 In this project using simple cnn model having sequence of layers that will process our images. The first layer is a convolutional layer that will learn important features of our images. We then add a second convolutional layer, a max pooling layer to down sample the features, and a dropout layer to prevent overfitting. We then flatten our data and add two fully connected layers to output our predictions.
 
@@ -176,6 +190,7 @@ Datasample include,example 4 colors have number 1, so we created the cropped dat
 
 ## Conclusion
 
+Using open cv and CNN model, sucessfully demonstrated the uno card detection in live camera.Even if we face many challenges ,using computer vision and machine learning model can acheive good results in real time applications.
 
 
 
