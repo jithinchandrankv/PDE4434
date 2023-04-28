@@ -12,28 +12,32 @@ To develop a program that can identify cards from the UNO game. Program should b
 
 ## Steps
 
-Navigate the folder where python file located
+Created a folder called "PDE4434",saved main python program(uno.py),Folder Test (dataset), Trained Model(Number detector.h5),CNN Program (CNN MODEL).
+
+
+
+1.Navigate the folder where python file located
 
 
 ![command prompt 1](https://user-images.githubusercontent.com/117764288/235130156-9b672e73-0365-4e75-be58-77a66a2822cc.JPG)
 
 
 
-Type "Python "file name.py" and press enter.
+2.Type "Python "file name.py" and press enter.
 
 
 ![command prompt 2](https://user-images.githubusercontent.com/117764288/235139091-1ebce26c-1d38-43fe-894c-97ee0e1bd421.JPG)
 
-Program will run and live video open for 10 seconds, place the card infront of the camera.
+3.Program will run and live video open for 10 seconds, place the card infront of the camera.
 
 
-Live camera captured the image and saved in to located folder
+4.Live camera captured the image and saved in to located folder
 
 
 ![test](https://user-images.githubusercontent.com/117764288/235215245-78f5ca78-7aa7-4a94-8d97-aebbcf398392.jpeg)
 
 
-Cropped image and saved into folder called "images" .
+5.Cropped image and saved into folder called "images" .
 
 
 ![Test1](https://user-images.githubusercontent.com/117764288/235215313-d664306d-d76c-4013-8322-ccee69e6c8d4.jpeg)
@@ -41,7 +45,7 @@ Cropped image and saved into folder called "images" .
 
 
 
-It will process and display  color and number/type in window "Result"
+6.It will process and display  color and number/type in window "Result"
 
 
   
@@ -50,6 +54,9 @@ It will process and display  color and number/type in window "Result"
 
 
 ## Dependencies
+
+Assuming Python file installed,to run this program following library is required
+
  #To load a trained model
 ```bash
   from tensorflow.keras.models import load_model 
@@ -84,7 +91,14 @@ import numpy as np
 ```bash  
 import cv2  
 ```   
-    
+* If not installed or getting error message while running code.
+
+Type "pip install package name "
+
+Example "pip install keras"
+   
+![Capture](https://user-images.githubusercontent.com/117764288/233808048-8fd80304-643f-4174-a797-66f466acf176.JPG)
+
     
 
 ## Working
@@ -185,9 +199,6 @@ Datasample include,example 4 colors have number 1, so we created the cropped dat
 
 
 
-
-
-
 ## Conclusion
 
 Using open cv and CNN model, sucessfully demonstrated the uno card detection in live camera.Even if we face many challenges ,using computer vision and machine learning model can acheive good results in real time applications.
@@ -214,6 +225,7 @@ https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_imgpr
 https://docs.opencv.org/master/d4/d73/tutorial_py_contours_begin.html<br>
 https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_contours/py_contours_hierarchy/py_contours_hierarchy.html
 https://en.wikipedia.org/wiki/HSL_and_HSV
+
 
 
 
