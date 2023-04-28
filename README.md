@@ -73,6 +73,9 @@ It will process and display  color and number/type in window "Result"
 
 
 ## Analysis
+
+
+
   
   
 
@@ -121,7 +124,20 @@ import cv2
 
 ## Dataset 
 
+My dataset have 15 classes, its helps to identify the number/action using CNN model.
 
+Each classes include cropped images, these images are trained to detect the card number/actions.
+
+```bash
+
+['1', '2', '3', '4', '5', '6', '7', '8', '9', 'Draw 2', 'NO CARD DETECTED', 'Reverese', 'Wild card', 'Wild card draw 4', 'skip']
+
+```
+
+Datasample include,example 4 colors have number 1, so we created the cropped data set according to our program.
+
+
+![data sample](https://user-images.githubusercontent.com/117764288/235218374-16d7d0fd-3c00-4e40-892e-bb1899700976.JPG)
 
 
 ## Constraints
@@ -130,7 +146,7 @@ import cv2
 ## Future improvement
 
 
-## demonstration Link 
+## Demonstration Link 
 
 Video 1: https://www.youtube.com/watch?v=3lpa2Ujsyjs
 
