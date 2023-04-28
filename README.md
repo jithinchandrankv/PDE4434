@@ -111,6 +111,10 @@ import cv2
 
 ## Analysis
 
+In this project using simple cnn model having sequence of layers that will process our images. The first layer is a convolutional layer that will learn important features of our images. We then add a second convolutional layer, a max pooling layer to down sample the features, and a dropout layer to prevent overfitting. We then flatten our data and add two fully connected layers to output our predictions.
+
+
+
 
 
   
