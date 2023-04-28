@@ -17,7 +17,8 @@ To develop a program that can identify cards from the UNO game. Program should b
 
 
 
-![Uploading command prompt 2.JPG…]()
+
+![command prompt 2](https://user-images.githubusercontent.com/117764288/235139091-1ebce26c-1d38-43fe-894c-97ee0e1bd421.JPG)
 
   
     
@@ -48,42 +49,42 @@ To develop a program that can identify cards from the UNO game. Program should b
   
 
 ## Dependencies
-
+ #To load a trained model
 ```bash
   from tensorflow.keras.models import load_model 
 ```
-```bash
-from tensorflow.keras.models import load_model
-```
-   #To load a trained model
+   #To interact with the file system
+  
 ```bash
 import os
 ```
-   #To interact with the file system
+  #To display images
 ```bash   
 import matplotlib.pyplot as plt
 
 ```
-   #To display images
+ #To preprocess images
+ 
 ```bash   
 from tensorflow.keras.preprocessing import image
 
 ```
-
-  #To preprocess images
+#To measure time
+  
 ```bash  
 import time 
 ```
-  #To measure time
+ #For numerical operations  
 ```bash  
 import numpy as np 
 ```
-  #For numerical operations
+ #For image processing and computer vision
+ 
 ```bash  
 import cv2  
 ```
 
-#For image processing and computer vision
+
 
   
 ## Simulation
